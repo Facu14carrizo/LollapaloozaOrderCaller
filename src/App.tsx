@@ -33,7 +33,14 @@ function App() {
   const handleDecrement = () => {
     setState((prev) => ({
       ...prev,
-      contadorActual: Math.max(1, prev.contadorActual - 1),
+      contadorActual: Math.max(0, prev.contadorActual - 1),
+    }));
+  };
+
+  const handleSetContador = (value: number) => {
+    setState((prev) => ({
+      ...prev,
+      contadorActual: Math.max(0, Math.min(999, value)),
     }));
   };
 
@@ -99,6 +106,7 @@ function App() {
             state={state}
             onIncrement={handleIncrement}
             onDecrement={handleDecrement}
+            onSetContador={handleSetContador}
             onEnviar={handleEnviar}
             onMoverARetirar={handleMoverARetirar}
             onEliminar={handleEliminar}
