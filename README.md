@@ -1,6 +1,8 @@
-# Mi Gusto - Llamador de pedidos (Lollapalooza Order Caller)
+# Mi Gusto - Llamador de pedidos
 
-Sistema **offline de gestión y llamado de pedidos** diseñado para los puntos de venta de **Lollapalooza Buenos Aires**, pensado para funcionar sin internet, con interfaz táctil para el contador y una vista optimizada para TV vertical en el sector de retiro.
+Sistema **offline de gestión y llamado de pedidos** pensado para utilizarse en **puntos de venta, eventos, ferias, foodtrucks o cualquier espacio de despacho de pedidos**, diseñado para funcionar sin internet, con interfaz táctil para el contador y una vista optimizada para TV vertical en el sector de retiro.
+
+Este proyecto forma parte del ecosistema **Mi Gusto**, y está pensado como una solución simple, rápida y portable para gestionar pedidos en entornos donde la conexión a internet no está garantizada.
 
 ## Demo
 
@@ -24,7 +26,7 @@ Sistema **offline de gestión y llamado de pedidos** diseñado para los puntos d
     - Pensado para tablets o pantallas táctiles en el área de armado de pedidos.
   - **Llamador**:
     - Display vertical optimizado para TVs 1080x1920.
-    - Enfocado en la experiencia del cliente al momento de retirar.
+    - Enfocado en mostrar los números de pedido listos para retirar.
 
 - **Flujo de pedidos**
   - Incrementar/decrementar el número de pedido actual.
@@ -64,7 +66,17 @@ Sistema **offline de gestión y llamado de pedidos** diseñado para los puntos d
 
 - **Almacenamiento**
   - `localStorage` para persistir números y listas de pedidos en el navegador.
-  
+
+## Posibles usos
+
+Este sistema puede utilizarse en:
+
+- Restaurantes
+- Foodtrucks
+- Eventos
+- Ferias gastronómicas
+- Puntos de retiro de pedidos
+- Cualquier sistema simple de llamado de números
 
 ## Desarrolladores
 
